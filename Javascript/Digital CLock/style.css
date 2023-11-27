@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d3b3b;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 300px;
+}
+
+#banner {
+    font-size: 45px;
+    color: #f1f4f7;
+    padding: 40px;
+}
+
+#clock {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    margin: 0 auto; /* Center horizontally */
+    /* border-radius: 100px; */
+    border: 2px solid orange;
+    border-radius: 14px; /* Add rounded corners */
+}
